@@ -11,6 +11,8 @@ import AddEvent from "./pages/AddEvent";
 import EventDetails from "./pages/EventDetails";
 import Events from "./pages/Events";
 import TableInfo from "./pages/TableInfo";
+import NewReservation from "./pages/NewRes";
+import ReservationInfo from "./pages/ReservationInfo";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route exact path="/eventDetails" Component={EventDetails} />
           <Route exact path="/events" Component={Events} />
           <Route exact path="/tableInfo" Component={TableInfo} />
+          <Route exact path="/newReservation" Component={NewReservation} />
+          <Route exact path="/reservationInfo" Component={ReservationInfo} />
         </Routes>
       </Router>
     </div>
